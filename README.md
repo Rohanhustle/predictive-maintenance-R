@@ -1,4 +1,4 @@
-# redesigned-octo-potato
+# Predictive mainenance using linear regression
 This is a simple 'Predictive Maintenance' project.
 In this I have created a linear regression model to predict values of different parameters
 for the next 10 days.
