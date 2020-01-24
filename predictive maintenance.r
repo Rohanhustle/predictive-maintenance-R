@@ -36,19 +36,19 @@ gl <- cbind(gl)
 colnames(gl) <- c(' New Days Predicted values')
 print(gl)
 
-##Mean squared error
-#mse <- mean((results$actual- results$predicted)^2)
-#print('Mean Squared Error')
-#print(mse)
+#Mean squared error
+mse <- mean((results$actual- results$predicted)^2)
+print('Mean Squared Error')
+print(mse)
 
-#RMSE
-#print('Root Mean square Error')
-#print(mse^0.5)
+RMSE
+print('Root Mean square Error')
+print(mse^0.5)
 
-#SSE - Sum of Squared errors
-#SSE <- sum ( ( results$predicted - results$actual)^2)
-#SST <- sum( ( mean(df$Vibrational.Parameters)- results$actual)^2)
+SSE - Sum of Squared errors
+SSE <- sum ( ( results$predicted - results$actual)^2)
+SST <- sum( ( mean(df$Vibrational.Parameters)- results$actual)^2)
 
-#R2 <- 1 - SSE/SST
-#print('R2')
-#print(R2)
+R2 <- 1 - SSE/SST
+print('R2')
+print(R2)
